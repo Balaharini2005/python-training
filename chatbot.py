@@ -10,5 +10,9 @@ while True:
         print("bot:ok")
     elif user.lower() in ["give me"]:
         print("bot:manipulating structure and datas")
+    elif user.lower() in ["quit,bye"]:
+        print("bot:goodbye")
+        break
     else:
         print("bot:i didn't understand your qwestion")
+
